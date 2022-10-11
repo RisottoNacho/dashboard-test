@@ -1,7 +1,7 @@
 {
   "name": "dash-test",
   "version": "1.0.0",
-  "description": "test project for embed dashboard",
+  "description": "test project for embedded dashboard",
   "license": "MIT",
   "scripts": {
     "setup": "yarn",
@@ -9,7 +9,7 @@
     "build:dist": "run-p compileElm css",
     "directories": "run-s directory:* ",
     "directory:public": "mkdir -p public",
-    "compileElm": "elm make src/Dash.elm --output public/elm.js --optimize",
+    "compileElm": "elm make src/Dash.elm --output public/dashboard.js --optimize",
     "css": "tailwind build -i src/main.css --output public/styles.css",
     "clean": "rm -rf public",
     "serve": "http-server --port 8090 -P http://localhost:8090?"
