@@ -5,6 +5,8 @@
   "license": "MIT",
   "scripts": {
     "setup": "yarn",
+    "start": "run-s css vite",
+    "vite": "vite",
     "dist": "run-s --silent clean directories build:dist ",
     "build:dist": "run-p compileElm css",
     "directories": "run-s directory:* ",
@@ -20,6 +22,8 @@
     "postcss": "^8.3.4",
     "tailwind": "^4.0.0",
     "tailwindcss": "^3.1.8",
+    "vite": "^2.2.3",
+    "vite-plugin-elm": "^2.1.2",
     "yarn": "^1.22.17"
   }
 }

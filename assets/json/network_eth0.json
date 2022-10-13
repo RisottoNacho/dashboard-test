@@ -1,0 +1,11 @@
+{
+    "id": "network_eth0",
+    "views": {
+        "address": "stringUrlExternal",
+        "dns1": "stringUrlExternal",
+        "dns2": "stringUrlExternal",
+        "gateway": "stringUrlExternal",
+        "mask": "stringUrlExternal",
+        "static": "booleanBulb"
+    }
+}
